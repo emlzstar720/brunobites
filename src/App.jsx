@@ -159,7 +159,7 @@ function RestaurantSquare({name, location, category}) {
 
         <RestaurantSquare
           name = "Jahunger"
-          location = "216 Thayer Street"
+          location = "333 Wickenden St"
           category = "Asian Cuisine" 
         />
         </div>
