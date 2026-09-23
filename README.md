@@ -26,7 +26,6 @@ I wanted to provide an easy rating system for users, but I wasn't sure how to cr
 
 I would like to credit the following sources for guiding me throughout the coding process:
 
-1.  Full Stack Developmental BootCamp for guiding me in creating user interaction components, which were essential to making this website.
+1.  Full Stack Developmental BootCamp slideshow + example website for guiding me in creating user interaction components and helping me better understand website layouts
 2. The tutorial from https://dev.to/annaqharder/how-to-make-star-rating-in-react-2e6f for helping me create my star rating system. 
-3. https://www.w3schools.com/ Javascript and CSS pages for helping me confirm syntax and different functoins
-W3Schools' Javascript and CSS pages. I also consulted the code from the Full Stack Bootcamp's example website (on Stackblitz) to better understand how the components come together in a website layout. 
+3. https://www.w3schools.com/ Javascript and CSS references for general assistance
