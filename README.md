@@ -1,16 +1,27 @@
-# React + Vite
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This project, titled "Bruno Bites," is a food-based website for Brown University Students. It features a space for them to add restaurants that they want to try and a restaurant gallery featuring Providence food spots and Brown dining halls. Each restaurant card gives users the ability to write a text review, rate the spot out of 5 stars, and add the spot to their favorites. 
 
-Currently, two official plugins are available:
+## How to Run it 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Open terminal and clone the repository using this command: git clone https://github.com/emlzstar720/brunobites.git
 
-## React Compiler
+2. Run "cd brunobites" to change directories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Run "npm install" 
 
-## Expanding the Oxlint configuration
+4. Run "npm run dev"
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+5. Open the local host link displayed by the terminal 
+
+## My Contributions
+
+I built this entire website on my own using the base React Page template provided by Vite as a starting point. I changed the CSS to style the website, made small tweaks to the HTML for stylistic purposes, and composed all of the Javascript code behind the components of the website (i.e. the textboxes, images, layout, restaurant gallery grid). 
+
+# Lessons Learned
+
+I wanted to provide an easy rating system for users, but I wasn't sure how to create a 5-star rating bar without manually making one button for each star. I struggled a little bit with this before consulting a tutorial online, which gave me good starter code to start with. I was able to better understand the concepts behind the code after looking at other Javscript websites (i.e. .map), and I slightly tweaked the code so that the stars could be reset. 
+
+# Lessons Learned
+
+I would like to credit the Full Stack Developmental BootCamp for teaching me a huge portion of the skills required (particularly with creating user interaction components) to make this website. I also used the tutorial from this link (https://dev.to/annaqharder/how-to-make-star-rating-in-react-2e6f) to help create my star rating system as well as W3Schools' Javascript and CSS pages. I also consulted the code from the Full Stack Bootcamp's example website (on Stackblitz) to get a better idea of how my layout should look and how components all come together. 
