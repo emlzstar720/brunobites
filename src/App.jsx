@@ -46,7 +46,7 @@ function RestaurantSquare({name, location, category}) {
   const [favorited, setFavorite] = useState(false);
 
   function changeFavorite() {
-    setFavorite(prev => !prev);
+    setFavorite(previousState => !previousState);
   }
 
   return(
