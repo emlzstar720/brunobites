@@ -8,10 +8,10 @@ import './App.css'
 function Header() {
   return (
     <header className="site-header">
-      <a className="brand" href="#home">
+      <h2 className="brand" href="#home">
         <span className="brand-mark">🍽️</span>
         Bruno Bites 
-      </a>
+      </h2>
     </header>
   );
 }
