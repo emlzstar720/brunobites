@@ -4,13 +4,13 @@ This project, titled "Bruno Bites," is a food-based website for Brown University
 
 ## How to Run it 
 
-1. Open terminal and clone the repository using this command: git clone https://github.com/emlzstar720/brunobites.git
+1. Open terminal and clone the repository: git clone https://github.com/emlzstar720/brunobites.git
 
-2. Run "cd brunobites" to change directories
+2. Change into project directory: cd brunobites
 
-3. Run "npm install" 
+3. Install necessary dependencies: npm install
 
-4. Run "npm run dev"
+4. Start development server: npm run dev
 
 5. Open the local host link displayed by the terminal 
 
@@ -20,7 +20,7 @@ I built this entire website on my own using the base React Page template provide
 
 # Lessons Learned
 
-I wanted to provide an easy rating system for users, but I wasn't sure how to create a 5-star rating bar without manually making one button for each star. I struggled a little bit with this before consulting a tutorial online, which gave me good starter code to start with. I was able to better understand the concepts behind the code after looking at other Javscript websites (i.e. .map), and I slightly tweaked the code so that the stars could be reset. 
+I wanted to provide an easy rating system for users, but I wasn't sure how to create a 5-star rating bar without manually making one button for each star. I struggled a little bit with this before consulting a tutorial online, which provided code that I could use as a starter. I was able to better understand the concepts behind the code after looking into other Javscript reference websites (i.e. the .map method), and I slightly tweaked the starter code so that the stars could be reset. 
 
 # References
 
