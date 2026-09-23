@@ -35,15 +35,14 @@ function StarRating() {
             size = {24}
             color = {index <= rating ? "yellow" : "gray"}
               onClick = {() => 
-                {console.log("clicked star", index)
-                handleClick(index)}}
+                handleClick(index)}
           />
         ))}
     </div>
   )
 }
 
-function RestaurantSquare({name, location, dish, category}) {
+function RestaurantSquare({name, location, category}) {
   const [favorited, setFavorite] = useState(false);
 
   function changeFavorite() {
@@ -60,7 +59,6 @@ function RestaurantSquare({name, location, dish, category}) {
       <p className = "category">{category}</p>
 
       <p className = "location">{location}</p>
-      <p className = "dishName">{dish}</p>
       <p className = "review">
         <textarea
             className = "reviewSection"
@@ -114,63 +112,54 @@ function RestaurantSquare({name, location, dish, category}) {
           <RestaurantSquare
           name = "The Ratty"
           location = "144 Thayer Street"
-          dish = "Vanilla Soft Serve"
           category = "Dining Hall" 
         />
 
         <RestaurantSquare
           name = "Andrews Commons"
           location = "211 Bowen Street"
-          dish = "Dry Noodle Bowl"
           category = "Dining Hall" 
         />
 
         <RestaurantSquare
           name = "Blue Room"
           location = "75 Waterman Street"
-          dish = "Yogurt Bowl"
           category = "Dining Cafe" 
         />
 
         <RestaurantSquare
           name = "Ivy Room"
           location = "Lower Level, 144 Thayer St"
-          dish = "Smoothie"
           category = "Dining Hall" 
         />
 
         <RestaurantSquare
           name = "V-Dub"
           location = "135 Cushing Street"
-          dish = "Omelette"
           category = "Dining Hall" 
         />
 
         <RestaurantSquare
           name = "Josiah's"
           location = "Gregorian Quad A, 114 Power St"
-          dish = "Milkshake"
           category = "Dining Hall" 
         />
 
         <RestaurantSquare
           name = "Den Den Chicken"
           location = "185 Angell Street"
-          dish = "Korean Fried Chicken"
           category = "Asian Cuisine"
         />
 
         <RestaurantSquare
           name = "Ten One Tea House"
           location = "216 Thayer Street"
-          dish = "Brown Sugar Boba"
           category = "Bubble Tea" 
         />
 
         <RestaurantSquare
           name = "Jahunger"
           location = "216 Thayer Street"
-          dish = "Honey Cake"
           category = "Asian Cuisine" 
         />
         </div>
