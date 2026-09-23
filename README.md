@@ -22,6 +22,6 @@ I built this entire website on my own using the base React Page template provide
 
 I wanted to provide an easy rating system for users, but I wasn't sure how to create a 5-star rating bar without manually making one button for each star. I struggled a little bit with this before consulting a tutorial online, which gave me good starter code to start with. I was able to better understand the concepts behind the code after looking at other Javscript websites (i.e. .map), and I slightly tweaked the code so that the stars could be reset. 
 
-# Lessons Learned
+# References
 
-I would like to credit the Full Stack Developmental BootCamp for teaching me a huge portion of the skills required (particularly with creating user interaction components) to make this website. I also used the tutorial from this link (https://dev.to/annaqharder/how-to-make-star-rating-in-react-2e6f) to help create my star rating system as well as W3Schools' Javascript and CSS pages. I also consulted the code from the Full Stack Bootcamp's example website (on Stackblitz) to get a better idea of how my layout should look and how components all come together. 
+I would like to credit the Full Stack Developmental BootCamp for teaching me a huge portion of the skills required (particularly with creating user interaction components) to make this website. I also used the tutorial from this link (https://dev.to/annaqharder/how-to-make-star-rating-in-react-2e6f) to help create my star rating system as well as W3Schools' Javascript and CSS pages. I also consulted the code from the Full Stack Bootcamp's example website (on Stackblitz) to better understand how the components come together in a website layout. 
