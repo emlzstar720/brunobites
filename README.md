@@ -20,7 +20,7 @@ I built this entire website on my own using the base React Page template provide
 
 # Lessons Learned
 
-I wanted to provide an easy rating system for users, but I wasn't sure how to create a 5-star rating bar without manually making one button for each star. I struggled a little bit with this before consulting a tutorial online, which provided code that I could use as a starter. I was able to better understand the concepts behind the code (i.e. the .map method) after looking into other Javscript reference websites, and I slightly tweaked the starter code so that the stars could be reset. 
+I wanted to provide an easy rating system for users, but I wasn't sure how to create a 5-star rating bar without manually making one button for each star. I struggled a little bit with this before consulting a tutorial online, which provided starter code. After I used Javascript references to better understand the concepts behind the code (i.e. the .map method), I adapted the code for my project; most notably, I added code that allowed the star ratings to be reset.
 
 # References
 

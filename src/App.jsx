@@ -29,13 +29,13 @@ function StarRating() {
 
   return (
     <div>
-      {[1, 2, 3, 4, 5].map((index) => (
+      {[1, 2, 3, 4, 5].map((starNumber) => (
           <FaStar
-            key = {index}
+            key = {starNumber}
             size = {24}
-            color = {index <= rating ? "yellow" : "gray"}
+            color = {starNumber <= rating ? "yellow" : "gray"}
               onClick = {() => 
-                handleClick(index)}
+                handleClick(starNumber)}
           />
         ))}
     </div>
