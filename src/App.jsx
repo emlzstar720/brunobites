@@ -54,7 +54,7 @@ function RestaurantSquare({name, location, category}) {
       <div className = "square-top">
       </div>
 
-      <h3>{name}</h3>
+      <h3 className = "name"> {name}</h3>
 
       <p className = "category">{category}</p>
 

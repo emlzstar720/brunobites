@@ -30,8 +30,6 @@ main,
 
 .site-header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 20px;
   color: black;
   min-height: 90px;
@@ -59,23 +57,11 @@ main,
 
 .brand-mark {
   display: grid;
-  place-items: center;
   width: 36px;
   height: 36px;
   border-radius: 10px;
   font-size: 30px;
-  text-decoration: none;
   color: black;
-}
-
-nav {
-  display: flex;
-  gap: 28px;
-  font-size: 14px;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
 
 .galleryTitle{
@@ -135,9 +121,9 @@ nav a:hover {
 }
 
 .name{
-  font-weight: 800;
+  color: rgb(38, 20, 5);
+  text-decoration: underline;
 }
-
 
 .bearNoodle{
   width: 300px;
